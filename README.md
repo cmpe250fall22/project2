@@ -1,5 +1,5 @@
 How to run?
 
-'javac Tree.java'
+`javac Tree.java`
 
-'java <input_file> <output_file>?'
+`java <input_file> <output_file>?`
