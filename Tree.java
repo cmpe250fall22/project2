@@ -293,9 +293,11 @@ public class Tree {
 
     boolean converged = true;
 
+
     while (converged) {
-      if (!(diverge_index < sender_path.size() && diverge_index < sender_path.size())) {
+      if (!(diverge_index < receiver_path.size() && diverge_index < sender_path.size())) {
         converged = false;
+        break;
       } else if (sender_path.get(diverge_index) == receiver_path.get(diverge_index)) {
         diverge_index += 1;
       } else {
